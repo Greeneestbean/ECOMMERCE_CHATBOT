@@ -222,8 +222,7 @@ def main():
     state = new_state()
 
     print("EcommerceSupportBot: Hi! Ask me a question about our apparel store.")
-    print("EcommerceSupportBot: Type 'quit' to stop chatting.")
-
+   
     while True:
         user_input = input("You: ")
         if user_input.lower() == "quit":
